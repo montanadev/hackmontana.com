@@ -7,13 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set up NodeJS
-        uses: actions/setup-node@v2
-
-      - name: Generate build
-        run: |
-          npm install
-          npm run build
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0
         with:
