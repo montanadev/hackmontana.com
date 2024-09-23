@@ -244,7 +244,7 @@ body {
 }
 
 .footer-wrapper-two {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   display: flex;
 }
@@ -602,6 +602,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 100px 3%;
+}
+
+.heading {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
